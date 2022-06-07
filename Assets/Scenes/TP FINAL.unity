@@ -201,8 +201,9 @@ GameObject:
   - component: {fileID: 676632682}
   - component: {fileID: 676632681}
   - component: {fileID: 676632680}
-  - component: {fileID: 676632679}
   - component: {fileID: 676632678}
+  - component: {fileID: 676632679}
+  - component: {fileID: 676632684}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -231,11 +232,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 676632677}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa9c2bdcee102f34daa1fc278a141460, type: 3}
+  m_Script: {fileID: 11500000, guid: f1b0a341c76eb7e4cbb505c9889ba5c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 1
-  rotationSpeed: 1
+  movementSpeed: 2
+  rotationHorizontal: 1
 --- !u!65 &676632680
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -304,6 +305,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &676632684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 676632677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55bc6036a8a9124a8b8ed267eefbf79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Espacio: {fileID: 8300000, guid: be6fa264c6bb8914f9ed1057ef668d68, type: 3}
 --- !u!1001 &741373571
 Prefab:
   m_ObjectHideFlags: 0

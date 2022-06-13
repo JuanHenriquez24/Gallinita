@@ -331,8 +331,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 613681370}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.14, y: -6.16, z: -149.77}
-  m_LocalScale: {x: 13.307085, y: 1, z: 38.285313}
+  m_LocalPosition: {x: -7.14, y: -6.2, z: -25.3}
+  m_LocalScale: {x: 13.307085, y: 1, z: 65.08503}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -351,7 +351,6 @@ GameObject:
   m_Component:
   - component: {fileID: 706866056}
   - component: {fileID: 706866055}
-  - component: {fileID: 706866057}
   m_Layer: 0
   m_Name: WhileEmpty + Tiempo
   m_TagString: Untagged
@@ -384,19 +383,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &706866057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 706866054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b94406086c83854da3f132f61868cba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  txtTime: {fileID: 153574598}
-  txtTimeFloored: {fileID: 0}
 --- !u!1 &774091733
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,7 +421,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 774091733}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.8, y: 7.6, z: -57.7}
+  m_LocalPosition: {x: 2.8, y: 1.12, z: -68.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -540,7 +526,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: daa97ab05ca40f848a5d083086c82f0b, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -729,7 +715,7 @@ Prefab:
     - target: {fileID: 82733603160849922, guid: 7382606482d3f1f44b90af567d96a993,
         type: 2}
       propertyPath: m_Volume
-      value: 0.35
+      value: 0.83
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 81284818675479642, guid: 7382606482d3f1f44b90af567d96a993, type: 2}
@@ -754,6 +740,19 @@ MonoBehaviour:
   Muerte: {fileID: 8300000, guid: af59db6656cac38458711d8fc090e290, type: 3}
   fuenteAudio: {fileID: 1355435453}
   cam: {fileID: 0}
+--- !u!114 &880161319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 880161309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b94406086c83854da3f132f61868cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txtTime: {fileID: 153574598}
+  txtTimeFloored: {fileID: 0}
 --- !u!20 &1065926743 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 20310107347034108, guid: 7382606482d3f1f44b90af567d96a993,

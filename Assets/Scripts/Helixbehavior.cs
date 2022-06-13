@@ -4,14 +4,11 @@ using UnityEngine;
 
 public class Helixbehavior : MonoBehaviour {
 
-    public float rotatespeed;
-	// Use this for initialization
-	void Start () {
-		
-	}
+    public float speed;
+    
 	
 	// Update is called once per frame
 	void Update () {
-        transform.eulerAngles += new Vector3(0, rotatespeed, 0);
+        transform.position += new Vector3(0, 0, speed);
 	}
 }

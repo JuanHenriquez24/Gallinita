@@ -8,15 +8,16 @@ public class WhileEmpty : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		
-	}
+        float contador = 0;
+        while (contador < 10)
+        {
+            Debug.Log("Esta saliendo un mensaje, pero no por mucho");
+            contador++;
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {
         float currentTime = Time.time;
-        while (currentTime < 10)
-        {
-            Debug.Log("Esta saliendo un mensaje, pero no por mucho");
-        }
-	}
+    }
 }

@@ -420,12 +420,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 774091733}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.8, y: 1.12, z: -68.03}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.8, y: 0.62, z: -71.229996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 676632683}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &818009888
 GameObject:
@@ -509,8 +509,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 818009888}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -34.18}
-  m_LocalScale: {x: 1, y: 1, z: 7.84}
+  m_LocalPosition: {x: 0, y: 0, z: -70.77}
+  m_LocalScale: {x: 1, y: 1, z: 15.1312}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -716,6 +716,10 @@ Prefab:
         type: 2}
       propertyPath: m_Volume
       value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 1782332241889066, guid: 7382606482d3f1f44b90af567d96a993, type: 2}
+      propertyPath: m_Name
+      value: Klee
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 81284818675479642, guid: 7382606482d3f1f44b90af567d96a993, type: 2}

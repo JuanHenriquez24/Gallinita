@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InstantiatorTren : MonoBehaviour {
+public class InstantiatorTren2 : MonoBehaviour
+{
 
     public Helixbehavior trenp;
     public GameObject bomb;
@@ -25,13 +26,14 @@ public class InstantiatorTren : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update () {
+    void Update()
+    {
         timer = timer - Time.deltaTime;
-        if(timer <= 0)
+        if (timer <= 0)
         {
             clon = Instantiate(bomb);
             timer = timebetweenbombs;
             clon.transform.position = spawnPoint.transform.position - spawnPoint.transform.forward;
         }
-	}
+    }
 }

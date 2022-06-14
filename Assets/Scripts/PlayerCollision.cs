@@ -33,5 +33,12 @@ public class PlayerCollision : MonoBehaviour {
             fuenteAudio.Play();
             Destroy(gameObject);
         }
+        if (col.gameObject.name == "Tren(Clone)")
+        {
+            cam.transform.parent = null;
+            fuenteAudio.clip = Muerte;
+            fuenteAudio.Play();
+            Destroy(gameObject);
+        }
     }
 }

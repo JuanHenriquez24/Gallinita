@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class TrenOEnemigo : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+   
+    public float speed;
+    public float maxSpeed;
+    public float minspeed;
+    // Use this for initialization
+    void Start()
+    { 
+    }
+
 	
 	// Update is called once per frame
 	void Update () {

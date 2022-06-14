@@ -327,5 +327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ac6bd8af6147244698cd6645ca2bbbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1500536714951536, guid: a8f7ce06f617c694a8defe8d0ea04214, type: 2}
+  bala: {fileID: 0}
   spawnPoint: {fileID: 1782332241889066}
+  apuntadorTR: {fileID: 0}
+  fuerzaDisparo: 0

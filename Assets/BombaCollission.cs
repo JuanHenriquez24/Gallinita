@@ -19,6 +19,10 @@ public class BombaCollission : MonoBehaviour {
         {
             Destroy(gameObject);
         }
+        if (col.gameObject.name == "Tren(Clone)")
+        {
+            Destroy(gameObject);
+        }
         if (col.gameObject.name == "Deepnest")
         {
             Destroy(gameObject);

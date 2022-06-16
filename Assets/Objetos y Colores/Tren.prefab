@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 65291524805439720}
   - component: {fileID: 114116185025177650}
   - component: {fileID: 54544726258421002}
-  - component: {fileID: 114427092160880470}
+  - component: {fileID: 114510215896461216}
   m_Layer: 0
   m_Name: Tren
   m_TagString: Untagged
@@ -128,7 +128,7 @@ MonoBehaviour:
   speed: 0
   maxSpeed: 0
   minspeed: 0
---- !u!114 &114427092160880470
+--- !u!114 &114510215896461216
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,4 +139,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdbdde1117bec1f41bbd9a64333f23da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 0.5

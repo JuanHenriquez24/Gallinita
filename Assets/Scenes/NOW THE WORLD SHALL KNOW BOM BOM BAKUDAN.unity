@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trenp: {fileID: 0}
-  bomb: {fileID: 1949164603799738, guid: cd80733de50c5674eb9e9bcf871a088c, type: 2}
+  bomb: {fileID: 100000, guid: c262d2f2bc5e7924c979eef73cde9326, type: 3}
   timebetweenbombs: 2
   spawnPoint: {fileID: 313980780}
   speed: 0
@@ -458,7 +458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trenp: {fileID: 0}
-  bomb: {fileID: 1949164603799738, guid: cd80733de50c5674eb9e9bcf871a088c, type: 2}
+  bomb: {fileID: 100000, guid: c262d2f2bc5e7924c979eef73cde9326, type: 3}
   timebetweenbombs: 1
   spawnPoint: {fileID: 774091733}
   speed: 0
@@ -1470,7 +1470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trenp: {fileID: 0}
-  bomb: {fileID: 1949164603799738, guid: cd80733de50c5674eb9e9bcf871a088c, type: 2}
+  bomb: {fileID: 100000, guid: c262d2f2bc5e7924c979eef73cde9326, type: 3}
   timebetweenbombs: 3
   spawnPoint: {fileID: 2014206685}
   speed: 0

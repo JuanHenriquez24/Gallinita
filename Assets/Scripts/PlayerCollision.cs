@@ -19,7 +19,14 @@ public class PlayerCollision : MonoBehaviour {
 
     void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.name == "Tren")
+        if (col.gameObject.name == "tren")
+        {
+            cam.transform.parent = null;
+            fuenteAudio.clip = Muerte;
+            fuenteAudio.Play();
+            Destroy(gameObject);
+        }
+        if (col.gameObject.name == "tren 1")
         {
             cam.transform.parent = null;
             fuenteAudio.clip = Muerte;
@@ -33,7 +40,7 @@ public class PlayerCollision : MonoBehaviour {
             fuenteAudio.Play();
             Destroy(gameObject);
         }
-        if (col.gameObject.name == "Tren(Clone)")
+        if (col.gameObject.name == "tren 1(Clone)")
         {
             cam.transform.parent = null;
             fuenteAudio.clip = Muerte;

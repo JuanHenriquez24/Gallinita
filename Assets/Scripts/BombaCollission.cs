@@ -15,11 +15,19 @@ public class BombaCollission : MonoBehaviour {
 	}
     void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.name == "Tren")
+        if (col.gameObject.name == "tren")
         {
             Destroy(gameObject);
         }
-        if (col.gameObject.name == "Tren(Clone)")
+        if (col.gameObject.name == "tren(Clone)")
+        {
+            Destroy(gameObject);
+        }
+        if (col.gameObject.name == "tren 1")
+        {
+            Destroy(gameObject);
+        }
+        if (col.gameObject.name == "tren 1(Clone)")
         {
             Destroy(gameObject);
         }

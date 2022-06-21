@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c262d2f2bc5e7924c979eef73cde9326
+guid: b22773e1a7ac8d74499f1a4c878d7dec
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -14,7 +14,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Textura tren
-    second: {fileID: 2800000, guid: 28baab3ac891c844dbb082308ab29dc3, type: 3}
+    second: {fileID: 2800000, guid: 4be769f7493b5b54aab0138a60581356, type: 3}
   materials:
     importMaterials: 1
     materialName: 0

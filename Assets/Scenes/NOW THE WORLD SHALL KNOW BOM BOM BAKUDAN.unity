@@ -522,7 +522,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 1500536714951536, guid: a8f7ce06f617c694a8defe8d0ea04214, type: 2}
   spawnPoint: {fileID: 706866054}
-  num1: 4
+  num1: 1
+  tiempoDelay: 2
 --- !u!4 &706866056
 Transform:
   m_ObjectHideFlags: 0
@@ -880,17 +881,17 @@ Prefab:
     - target: {fileID: 20310107347034108, guid: 7382606482d3f1f44b90af567d96a993,
         type: 2}
       propertyPath: m_BackGroundColor.r
-      value: 0.22659309
+      value: 0.013883919
       objectReference: {fileID: 0}
     - target: {fileID: 20310107347034108, guid: 7382606482d3f1f44b90af567d96a993,
         type: 2}
       propertyPath: m_BackGroundColor.g
-      value: 0.7169812
+      value: 0.9811321
       objectReference: {fileID: 0}
     - target: {fileID: 20310107347034108, guid: 7382606482d3f1f44b90af567d96a993,
         type: 2}
       propertyPath: m_BackGroundColor.b
-      value: 0.7035459
+      value: 0.9501801
       objectReference: {fileID: 0}
     - target: {fileID: 20310107347034108, guid: 7382606482d3f1f44b90af567d96a993,
         type: 2}

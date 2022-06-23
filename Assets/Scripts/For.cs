@@ -7,7 +7,8 @@ public class For : MonoBehaviour
     public GameObject prefab;
     public GameObject spawnPoint;
     public int num1;
-
+    private float contador;
+    public int tiempoDelay;
 
     public void CloneObject()
     {
@@ -19,8 +20,14 @@ public class For : MonoBehaviour
         }
     }
 
-    private void Start()
+
+    private void Update()
     {
-        CloneObject();
+        contador += Time.deltaTime;
+        if (contador >= tiempoDelay)
+        {
+            contador = 0;
+            CloneObject();
+        }
     }
 }

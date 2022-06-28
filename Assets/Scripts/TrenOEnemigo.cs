@@ -20,7 +20,7 @@ public class TrenOEnemigo : MonoBehaviour {
 	}
     void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.name == "Bomba(Clone)")
+        if (col.gameObject.name == "Bomba 1(Clone)")
         {
             Destroy(gameObject);
         }
